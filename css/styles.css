@@ -24,3 +24,9 @@ nav {
     border: 2px solid  black;
     height: 40px;
 }
+
+.hero {
+    border: 1px solid black;
+    margin: 20px;
+    padding: auto;
+}
