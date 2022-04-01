@@ -1,8 +1,8 @@
 body {
-    background-color: aqua;
+    background-color: #B82601;
 }
 h1 {
-    border: 5px solid aqua;
+    border: 5px solid #B82601;
     text-align: center;
     height: 50px;
     padding: 10px;
@@ -22,11 +22,71 @@ h1 {
 nav {
     text-align: center;
     border: 2px solid  black;
-    height: 40px;
+    height: 55px;
+    background-color: white;
+}
+
+.navlogo {
+    float: inline-start;
+}
+
+.maps {
+    border: 2px solid black;
 }
 
 .hero {
-    border: 1px solid black;
+    border: 5px solid #062F4F;
     margin: 20px;
+    background-image: url(../assets/blueboy.jpg);
+    background-color: red;
+    background-position: left bottom;
     padding: auto;
+    color: white;
 }
+
+.columns {
+    float: left;
+    width: 300px;
+    padding: 10px;
+}
+
+footer {
+	clear: both;
+	padding: px;
+	border: 1px solid black;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #062F4F;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #B82601;
+  }
+  
+
+  .container2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  } 
