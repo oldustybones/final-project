@@ -6,7 +6,7 @@ h1 {
     text-align: center;
     height: 50px;
     padding: 10px;
-    background-color: black;
+    background-color:#062F4F;
     color: white;
 }
 
@@ -23,7 +23,8 @@ nav {
     text-align: center;
     border: 2px solid  black;
     height: 55px;
-    background-color: white;
+    background-color: #b82601;
+    margin-top: 20px;
 }
 
 .navlogo {
@@ -90,3 +91,13 @@ footer {
     background-color: #f2f2f2;
     padding: 20px;
   } 
+
+  .rownav {
+    background-color: #062F4F;
+    color: white;
+    padding: auto;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 100px;
+  }
